@@ -30,4 +30,3 @@ We use dataset Medical Appointment No Shows from [Kaggle](https://www.kaggle.com
 ![image](https://user-images.githubusercontent.com/27751735/63810179-cc02f280-c92c-11e9-8dc0-9fd13a465edf.png)
 ![image](https://user-images.githubusercontent.com/27751735/63810189-d1f8d380-c92c-11e9-8e10-db95fbed9066.png)
 ![image](https://user-images.githubusercontent.com/27751735/63810195-d624f100-c92c-11e9-99a7-85c6bee0864e.png)
-![image](https://user-images.githubusercontent.com/27751735/63810203-dd4bff00-c92c-11e9-9d79-da31a727ad1e.png)
