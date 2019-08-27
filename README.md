@@ -222,6 +222,7 @@ Every time we choose the beast feature depends on the value of key
 - When K = 3:<br>
 ![image](https://user-images.githubusercontent.com/27751735/63812693-d8d71480-c933-11e9-8435-36ab01788359.png)<br>
 - When K = 4:<br>
+![image](https://user-images.githubusercontent.com/27751735/63812967-c01b2e80-c934-11e9-90bb-35522584a7aa.png)<br>
 - When K = 5:<br>
 ![image](https://user-images.githubusercontent.com/27751735/63812713-e391a980-c933-11e9-9c31-d81a0b47b89e.png)<br>
 - When K = 6:<br>
