@@ -25,3 +25,9 @@ We use dataset Medical Appointment No Shows from [Kaggle](https://www.kaggle.com
 |Handcap|	0 or 1|	indicates if the patient is handicaped|
 |SMS_received|	0 or 1|	1 or more messages sent to the patient|
 |No-show|	Yes or No|	it says ‘No’ if the patient showed up to their appointment, and ‘Yes’ if they did not show up|
+
+# Exploratory data Analysis
+![image](https://user-images.githubusercontent.com/27751735/63810179-cc02f280-c92c-11e9-8dc0-9fd13a465edf.png)
+![image](https://user-images.githubusercontent.com/27751735/63810189-d1f8d380-c92c-11e9-8e10-db95fbed9066.png)
+![image](https://user-images.githubusercontent.com/27751735/63810195-d624f100-c92c-11e9-99a7-85c6bee0864e.png)
+![image](https://user-images.githubusercontent.com/27751735/63810203-dd4bff00-c92c-11e9-9d79-da31a727ad1e.png)
