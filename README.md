@@ -7,7 +7,7 @@ Many times people do not show up for a medical appointment. No-show is a loss fo
 Thus, there are two losses: the time loss for the doctor and the loss of an appointment for the person in need. The analysis is focused on finding which affects patients to show or not show up to appointments.
 
 ## Understanding the data
-We use dataset Medical Appointment No Shows from [Kaggle](https://www.kaggle.com/joniarroba/noshowappointments).
+Dataset Medical Appointment No Shows from [Kaggle](https://www.kaggle.com/joniarroba/noshowappointments).
 ## Dataset Description
 | Name | Value(s)  | Description  |
 | ------- | --- | --- |
