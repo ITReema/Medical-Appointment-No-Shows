@@ -111,3 +111,35 @@ dataset.columns = ['patient_id', 'appointment_id', 'gender', 'scheduled_day', 'a
 #determine just 10K row to work on it
 data=dataset.head(10000)
 ```
+
+# Data Cleaning
+* Fixed column misspellings, incorporated underscores:
+```
+dataset.columns = ['patient_id', 'appointment_id', 'gender', 'scheduled_day', 'appointment_day', 'age', 'neighbourhood', 'scholarship', 'hypertension', 'diabetes', 'alcoholism', 'handicap', 'sms_received', 'no_show']
+```
+* Fix columns with missing value:
+```
+data['scholarship'] = np.where(data['scholarship']>0, 1, 0)
+data['hypertension'] = np.where(data['hypertension']>0, 1, 0)
+data['alcoholism'] = np.where(data['alcoholism']>0, 1, 0)
+data['handicap'] = np.where(data['handicap']>0, 1, 0)
+data['sms_received'] = np.where(data['sms_received']>0, 1, 0)
+```
+* Checking the Age attribute:
+```
+data[data['age']<0]
+```
+* Checking the Appointment id is unique:
+```
+data['appointment_id'] = data['appointment_id'].apply(lambda x: str(int(x)));
+len(data['appointment_id'].unique())
+```
+* Gender attribute:
+```
+data['gender']=x.gender[x.gender=='M']=0
+data['gender']=x.gender[x.gender=='F']=1
+```
+* Check all attributes have same number of values:
+```
+dataset.info()
+```
