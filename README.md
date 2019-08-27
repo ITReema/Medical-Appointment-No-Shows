@@ -47,3 +47,20 @@ Handicap: most of the people not handicapped.
 <br>
 Hypertension: Most patients do not have hypertension.
 
+## Questions to be Explored
+- How many percent of patients missed their scheduled appointment?
+![image](https://user-images.githubusercontent.com/27751735/63810881-919a5500-c92e-11e9-8727-72b18daacbf7.png)<br> 
+20% of appointments were missed. 
+
+- What is the gender distribution for show / no-show patients?<br>
+![image](https://user-images.githubusercontent.com/27751735/63810887-95c67280-c92e-11e9-97a1-d86cc5479e3e.png)<br>
+Out of 71831 appointments made by females, 14588 were missed with the ratio of 20%. <br>
+Out of 38685 appointments made by males, 7723 were missed with the ratio of 20%.
+
+- Important factors to know in order to predict if a patient will show up for their scheduled appointment<br>
+![image](https://user-images.githubusercontent.com/27751735/63810903-a2e36180-c92e-11e9-90ea-2f2c47c67270.png)
+![image](https://user-images.githubusercontent.com/27751735/63810908-a7a81580-c92e-11e9-8955-011e64d56dcf.png)
+![image](https://user-images.githubusercontent.com/27751735/63810916-abd43300-c92e-11e9-823a-309af28213a9.png)
+![image](https://user-images.githubusercontent.com/27751735/63810921-af67ba00-c92e-11e9-9174-a1ae20d12aca.png)<br>
+For all features the distributions of show / no-show for different categories look very similar. There is no clear indication of any of these variables having bigger then others impact on show / no-show characteristics. The charts confirm about 20% no-show rate for most categories.
+
