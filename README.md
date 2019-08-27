@@ -83,7 +83,7 @@ The Feature selection which used is:
 * KNeighbors Classifier
 
 ## The Source code of Models
-Import data analysis packages:
+#### Import data analysis packages:
 ```
 # Data analysis packages
 import pandas as pd
@@ -102,4 +102,12 @@ from sklearn.linear_model import LogisticRegression from sklearn.ensemble import
 from sklearn.linear_model import SGDClassifier
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
+```
+#### Load dataset:
+```
+#load dataset
+dataset = pd.read_csv('medicalAppointment.csv')
+dataset.columns = ['patient_id', 'appointment_id', 'gender', 'scheduled_day', 'appointment_day', 'age', 'neighbourhood', 'scholarship', 'hypertension', 'diabetes', 'alcoholism', 'handicap', 'sms_received', 'no_show']
+#determine just 10K row to work on it
+data=dataset.head(10000)
 ```
