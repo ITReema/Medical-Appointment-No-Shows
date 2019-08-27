@@ -64,3 +64,20 @@ Out of 38685 appointments made by males, 7723 were missed with the ratio of 20%.
 ![image](https://user-images.githubusercontent.com/27751735/63810921-af67ba00-c92e-11e9-9174-a1ae20d12aca.png)<br>
 For all features the distributions of show / no-show for different categories look very similar. There is no clear indication of any of these variables having bigger then others impact on show / no-show characteristics. The charts confirm about 20% no-show rate for most categories.
 
+# Data Analysis
+The Models which used are:
+* Decision Tree Classifier
+* Logistic Regression
+* Random Forest Classifier
+* GaussianNB
+* SGD Classifier
+* SVC
+
+The Metric which used are:
+* accuracy score
+* recall score
+* precision score
+* zero one loss
+
+The Feature selection which used is:
+* KNeighbors Classifier
