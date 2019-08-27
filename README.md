@@ -28,5 +28,22 @@ We use dataset Medical Appointment No Shows from [Kaggle](https://www.kaggle.com
 
 # Exploratory data Analysis
 ![image](https://user-images.githubusercontent.com/27751735/63810179-cc02f280-c92c-11e9-8dc0-9fd13a465edf.png)
+<br>
+Age: There are many young people in the dataset, but in general the number of patients down for older than 60 years.
+
 ![image](https://user-images.githubusercontent.com/27751735/63810189-d1f8d380-c92c-11e9-8e10-db95fbed9066.png)
+<br>
+Alcoholism: Most of the patients are not alcoholics.
+
 ![image](https://user-images.githubusercontent.com/27751735/63810195-d624f100-c92c-11e9-99a7-85c6bee0864e.png)
+<br>
+Diabetes: Most of the patients are not diabetes.
+
+![image](https://user-images.githubusercontent.com/27751735/63810662-f30df400-c92d-11e9-8f82-510a57f4a3d3.png)
+<br>
+Handicap: most of the people not handicapped.
+
+![image](https://user-images.githubusercontent.com/27751735/63810672-f86b3e80-c92d-11e9-9009-22a9fd1d100d.png)
+<br>
+Hypertension: Most patients do not have hypertension.
+
