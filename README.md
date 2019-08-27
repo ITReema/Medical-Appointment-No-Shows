@@ -232,3 +232,12 @@ Every time we choose the beast feature depends on the value of key
 - When K = 8:<br>
 ![image](https://user-images.githubusercontent.com/27751735/63812734-f86e3d00-c933-11e9-95cf-1221d59588bf.png)<br>
 
+# Best Performance
+| Model | preformance  | 
+| ------- | --- |	
+|GaussianNB	|80%|	
+|Decision Tree Classifier	|	79%|	
+|SGD Classifier	|	79%|	
+|Random Forest Classifier	|	78%|	
+|Logistic Regression	|	73%|	
+|SVC	|	72%|	
