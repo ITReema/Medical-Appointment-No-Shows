@@ -1,7 +1,7 @@
 # Medical-Appointment-No-Shows
 This analysis is part of the Tebian Camp and aims to explore a dataset containing approximately 100k medical appointments from the Brazilian public health system.
 
-# Introduction
+## Introduction
 This analysis will use the no-show appointments dataset which collects information from 100k medical appointments and is focused on the question of whether or not patients show up for their appointment.
 Many times people do not show up for a medical appointment. No-show is a loss for doctors since they lose their time. On the other hand, patients who wanted an appointment as soon as possible were unable to get one.
 Thus, there are two losses: the time loss for the doctor and the loss of an appointment for the person in need. The analysis is focused on finding which affects patients to show or not show up to appointments.
@@ -26,7 +26,7 @@ We use dataset Medical Appointment No Shows from [Kaggle](https://www.kaggle.com
 |SMS_received|	0 or 1|	1 or more messages sent to the patient|
 |No-show|	Yes or No|	it says ‘No’ if the patient showed up to their appointment, and ‘Yes’ if they did not show up|
 
-# Exploratory data Analysis
+## Exploratory data Analysis
 ![image](https://user-images.githubusercontent.com/27751735/63810179-cc02f280-c92c-11e9-8dc0-9fd13a465edf.png)
 <br>
 Age: There are many young people in the dataset, but in general the number of patients down for older than 60 years.
@@ -64,7 +64,7 @@ Out of 38685 appointments made by males, 7723 were missed with the ratio of 20%.
 ![image](https://user-images.githubusercontent.com/27751735/63810921-af67ba00-c92e-11e9-9174-a1ae20d12aca.png)<br>
 For all features the distributions of show / no-show for different categories look very similar. There is no clear indication of any of these variables having bigger then others impact on show / no-show characteristics. The charts confirm about 20% no-show rate for most categories.
 
-# Data Analysis
+## Data Analysis
 The Models which used are:
 * Decision Tree Classifier
 * Logistic Regression
@@ -112,7 +112,7 @@ dataset.columns = ['patient_id', 'appointment_id', 'gender', 'scheduled_day', 'a
 data=dataset.head(10000)
 ```
 
-# Data Cleaning
+## Data Cleaning
 * Fixed column misspellings, incorporated underscores:
 ```
 dataset.columns = ['patient_id', 'appointment_id', 'gender', 'scheduled_day', 'appointment_day', 'age', 'neighbourhood', 'scholarship', 'hypertension', 'diabetes', 'alcoholism', 'handicap', 'sms_received', 'no_show']
@@ -211,7 +211,7 @@ for m in models:
 print(acores1) plt.scatter(k_range ,acores1 )
 ```
 
-# Improvement performance
+## Improvement performance
 Every time we choose the beast feature depends on the value of key
 
 
@@ -232,7 +232,7 @@ Every time we choose the beast feature depends on the value of key
 - When K = 8:<br>
 ![image](https://user-images.githubusercontent.com/27751735/63812734-f86e3d00-c933-11e9-95cf-1221d59588bf.png)<br>
 
-# Best Performance
+## Best Performance
 | Model | preformance  | 
 | ------- | --- |	
 |GaussianNB	|80%|	
@@ -241,3 +241,6 @@ Every time we choose the beast feature depends on the value of key
 |Random Forest Classifier	|	78%|	
 |Logistic Regression	|	73%|	
 |SVC	|	72%|	
+
+## Conclusion
+In this report, we are focus on the accuracy of prediction. Our goal is improve performance. We identified the machine learning algorithm for the current dataset; therefore, we compare different algorithms and identified the best performing algorithms.
