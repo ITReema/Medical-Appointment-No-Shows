@@ -210,3 +210,24 @@ for m in models:
 #print the result of real performance for each model and represented by diagram
 print(acores1) plt.scatter(k_range ,acores1 )
 ```
+
+# Improvement performance
+Every time we choose the beast feature depends on the value of key
+
+
+- When K = 1:<br>
+![image](https://user-images.githubusercontent.com/27751735/63812680-cc52bc00-c933-11e9-828e-0e8d173058a1.png)<br>
+- When K = 2:<br>
+![image](https://user-images.githubusercontent.com/27751735/63812688-d07ed980-c933-11e9-8683-a07d0fca261f.png)<br>
+- When K = 3:<br>
+![image](https://user-images.githubusercontent.com/27751735/63812693-d8d71480-c933-11e9-8435-36ab01788359.png)<br>
+- When K = 4:<br>
+- When K = 5:<br>
+![image](https://user-images.githubusercontent.com/27751735/63812713-e391a980-c933-11e9-9c31-d81a0b47b89e.png)<br>
+- When K = 6:<br>
+![image](https://user-images.githubusercontent.com/27751735/63812721-eb514e00-c933-11e9-889c-8cfbcfac3e94.png)<br>
+- When K = 7:<br>
+![image](https://user-images.githubusercontent.com/27751735/63812731-f3a98900-c933-11e9-903f-b5e850ccbff3.png)<br>
+- When K = 8:<br>
+![image](https://user-images.githubusercontent.com/27751735/63812734-f86e3d00-c933-11e9-95cf-1221d59588bf.png)<br>
+
