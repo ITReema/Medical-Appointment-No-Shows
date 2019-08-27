@@ -81,3 +81,25 @@ The Metric which used are:
 
 The Feature selection which used is:
 * KNeighbors Classifier
+
+## The Source code of Models
+Import data analysis packages:
+```
+# Data analysis packages
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+#import classes from library
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split from sklearn.feature_selection import SelectKBest
+from sklearn.metrics import recall_score
+from sklearn.metrics import precision_score
+from sklearn.metrics import zero_one_loss
+from sklearn import model_selection
+from sklearn.feature_selection import chi2
+from sklearn.model_selection import KFold
+from sklearn.linear_model import LogisticRegression from sklearn.ensemble import RandomForestClassifier from sklearn.naive_bayes import GaussianNB
+from sklearn.linear_model import SGDClassifier
+from sklearn.svm import SVC
+from sklearn.tree import DecisionTreeClassifier
+```
