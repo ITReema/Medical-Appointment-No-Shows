@@ -143,3 +143,19 @@ data['gender']=x.gender[x.gender=='F']=1
 ```
 dataset.info()
 ```
+![image](https://user-images.githubusercontent.com/27751735/63812166-336f7100-c932-11e9-8ec1-ddd1cd214f60.png)
+
+* Converts the type of scheduled_day and appointment_day to datetime:
+```
+data['scheduled_day'] = pd.to_datetime(data['scheduled_day'])
+data['appointment_day'] = pd.to_datetime(data['appointment_day'])
+```
+* Create a variable called waiting_time:
+```
+data['waiting_time'] = data["appointment_day"].sub(data["scheduled_day"], axis=0)
+data["waiting_time"] = (data["waiting_time"] / np.timedelta64(1, 'D')).abs()
+```
+* Drop unused columns:
+```
+x.drop(x.columns[[0,1,3,4,6]],axis=1, inplace=True )
+```
